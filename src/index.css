@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-ambient-radial {
+    background: radial-gradient(circle at 50% 0%, rgba(34, 197, 94, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 0% 100%, rgba(59, 130, 246, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 100% 50%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.3);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.3);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.3);
+  }
+}
+
+/* Custom slick scrollbar for atmospheric media theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+

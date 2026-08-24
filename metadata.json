@@ -1,0 +1,6 @@
+{
+  "name": "Ecology Clash of Champions",
+  "description": "Game pembelajaran IPA interaktif bertema Makhluk Hidup dan Lingkungannya untuk Kelas X SMA/SMK Fase E bergaya Clash of Champions",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
